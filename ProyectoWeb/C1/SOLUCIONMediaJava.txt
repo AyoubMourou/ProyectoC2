@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class MEDIA_FUNDACIO_ESPLAI 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		// CALCULA LA MEDIA DE UNA SERIE DE NUMEROS POSITIVOS SUPONIENDO
+		// QUE LOS NUMEROS SE LEEN DE UNO EN UNO.		
+		// PARA FINALIZAR HAY QUE PRESIONAR CERO
+		
+		// AÑADIMOS EL TECLADO
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduzca un numero diferente a cero.");
+		int numero = teclado.nextInt();
+		
+		// LE DAMOS VALOR AL CONTADOR Y A LA SUMA	
+		int contador = 0;
+		int suma = 0;
+		
+		// SI EL PRIMER NUMERO ES IGUAL O MENOR A CERO DA ERRO		
+		if (numero <= 0) 
+		{
+			System.out.println("¡¡¡ERROR!!!");			
+		}
+		else 
+		{			
+			// MIENTRAS QUE EL MUMERO SEA DIFERENTE A CERO SE MANTENDRA EN EL BUCLE
+			while (	numero != 0 ) 
+			{		
+				suma = suma += numero;
+				contador ++;
+				System.out.println("Introduzca un numero o pulse cero para finalizar.");
+				numero = teclado.nextInt();								
+			}
+
+			// CUANDO SE PULSE LA TECLA CERO NOS DARA LA MEDIA DE TODOS LOS NUMEROS INTRODUCIDOS			
+			System.out.println("La media es: " + suma / contador );			
+		}
+	}
+}

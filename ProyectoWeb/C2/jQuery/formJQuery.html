@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="formJQuery EJERCICIO.js"></script>
+
+    <title>Mi Primer proyecto con bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <form name="fboot" onsubmit="">
+        <h2>Create a new task</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="textinput">Title</label>  
+                <input id="inputTitle" type="text" class="col-md-4 form-control" placeholder="">
+            </div>
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="textinput">DNI</label>  
+                <input id="inputDni" type="text" class="col-md-4 form-control" placeholder="">
+            </div>
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="textinput">Location</label>  
+                <select id="selecLocation" name="selLoc"  class="form-control">
+                    <option value="1"></option>
+                    <option value="2">A1</option>
+                    <option value="3">A2</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="textinput">Type</label>  
+                <select id="selectType" name="selType" class="form-control">
+                    <option value="1">Select type</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="textinput">Criticity</label>  
+                <select id="selectCriticity" name="selCrit" class="form-control">
+                    <option value="1">Select Criticity Level</option>
+                    <option value="2">Low</option>
+                    <option value="3">Medium</option>
+                    <option value="4">High</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="col-md-4 control-label" for="checkboxes">Enviroment</label>
+                <div class="col-md-4">
+                    <div class="checkbox">
+                    <label for="checkPr">
+                        <input type="checkbox" name="checkProd" id="checkPr" value="1">
+                        Prod
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkDp">
+                        <input type="checkbox" name="checkDeprod" id="checkDp" value="2">
+                        Deprod
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkDm">
+                        <input type="checkbox" name="checkDemo" id="checkDm" value="3">
+                        Demo
+                    </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-md-12 control-label" for="textarea">Description</label>
+                <div class="col-md-12">                     
+                    <textarea class="form-control" id="txtDescription" name="txtDescripcion"></textarea>
+                </div>
+            </div>
+            <div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="inputStartDate">Start date</label>
+                <input type="date" class="form-control" id="inputStartDate">
+            </div>
+            
+            <div class="col-md-6">
+                <label class="control-label" for="textinput">Duration (In hours)</label> 
+                <input type="text"  class="col-md-6 form-control" id="textDuration" placeholder="">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <label class="col-md-6 control-label" for="textinput">Status</label>  
+                <select id="selectStatus" name="selectbasic" class="form-control">
+                    <option value="1">Select status</option>
+                    <option value="2">Planned</option>
+                    <option value="3">Unplanned</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label" for="textinput">Percent completed</label>  
+                <select id="selectPercent" name="selectbasic" class="form-control">
+                    <option value="1">0%</option>
+                    <option value="1">1-10%</option>
+                    <option value="2">11-30%</option>
+                    <option value="2">31-49%</option>
+                    <option value="2">50%</option>
+                    <option value="3">51-60%</option>
+                    <option value="3">61-85%</option>
+                    <option value="3">86-99%</option>
+                    <option value="3">100%</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="checkbox">
+                <label for="checkboxes-0">
+                    <input type="checkbox" name="checkboxes" id="checkMail" value="1">
+                    <b>Check here if you want to send an e-mail</b>
+                </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-success" id="myBtn" onclick="myFunction()">Aceptar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

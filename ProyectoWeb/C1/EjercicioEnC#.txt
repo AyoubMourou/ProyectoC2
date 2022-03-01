@@ -1,0 +1,9 @@
+- Detectar si una palabra es un palindromo
+
+- Crear un metodo Potencia(int x, int p) - sin usar Math.pow()
+- Invertir los digitos de un numero
+- Idem, SIN usar los tipos String o Char
+
+- Juego de adivinanza: preguntar un num entre 1 y 20, y decir si está por debajo o por encima.
+- Mostrar la representación binaria de un valor int
+

@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("imagenes/fondoLogin.jpg");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.login {
+    background: #c7d0d869;
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    width: 100px;
+    margin: auto;
+    border: 3px solid purple;
+}
+
+#textoInformativo {
+    font-weight: 600;
+    margin: 40px;
+    font-size: 17px;
+}
+
+.datos {
+    width: 530px;
+    margin-left: 40px;
+    height: 40px;
+}
+
+#centrarBoton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#entrar {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#registro {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+#errorDatos {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(38, 192, 7);
+}

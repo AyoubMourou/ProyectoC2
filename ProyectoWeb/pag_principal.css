@@ -1,0 +1,127 @@
+html, body{
+    height: 100%;
+    background-color:rgb(152, 141, 216);
+}
+header{
+    background-color: white;
+}
+footer{
+    background-color: white;
+    
+}
+#cabecera
+{
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#enfocat{
+    
+    height: fit-content;
+    width: fit-content;
+}
+#title
+{
+    font-size: 400%;
+    text-align: left;
+    color: blueviolet;
+}
+
+#subTitle
+{
+    text-align: right;
+}
+#divPeticion{
+    text-align: right;
+}
+#nuevaPeticion{
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.5%;
+    margin-bottom: 3.5%;
+}
+
+#indice{
+    height: 100%;
+    width: 100%;
+    
+}
+.cuadradoC{
+    width:50vh;
+    max-width:400px;
+    height:50vh;
+    max-height:400px;
+    position: relative;
+    margin: 5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.C{
+    font-size: 500%;
+    color: white;
+     
+}
+#c1{
+    background-image: url("imagenes/c1.jpg");
+    
+}
+#c2{
+    background-image: url("imagenes/c2.jpg");
+}
+
+.CTitle{
+    text-align: center;
+    min-height: 25%;
+    width: 100%;
+    font-size: 150%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.separador
+{ 
+    margin: 0px;
+    border: none;
+    opacity: 1;
+    border-top: 1px solid blueviolet;
+    border-bottom: 3px solid blueviolet;   
+}
+#divLabelAtras{
+    background-color:rgb(152, 141, 216);
+}
+
+#divAtras{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.5%;
+}
+#indicePagC{
+    height: 100%;
+    width: 100%;
+}
+.tituloC{
+    padding: 2%;
+}
+.Sesion{
+    padding-left: 4%;
+}
+
+.descargable{
+    background-color: black;
+    width:50vh;
+    max-width:150px;
+    height:50vh;
+    max-height:150px;
+    position: relative;
+    margin: 5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.cuadradoC:hover {
+    color: orange;
+  }
