@@ -29,7 +29,7 @@
     <hr class="separador">
     <div>
         <div id="divPeticion">
-            <div id="nuevaPeticion" onclick="alert('Abrir Form')">
+            <div id="nuevaPeticion" onclick="AbrirForm()">
                     <label id="peticionLabel"><span class="bi bi-clipboard"></span> Nueva Petición</label>      
             </div>
         </div>
@@ -43,6 +43,47 @@
                 <label class="CTitle position-absolute bottom-0 start-50 translate-middle-x">Introducción al desarrollo WEB</label>
             </label>
             <br><br><br><br><br>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal" tabindex="-1" role="dialog" style="background-color: rgba(51, 48, 48, 0.486);" >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Formulario de petición de documentos</h2>
+            </div>
+            <div class="modal-body">
+                <form name="fboot" onsubmit="">
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="col-md-12 control-label" for="textinput" id="nombreDocumento">Que documentos quieres?</label>  
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="col-md-12 control-label" for="textinput" id="tipoDocumento">Tipo de documentos</label> 
+                        <select class="form-control">
+                            <option value="PDF">PDF</option>
+                            <option value="imagen">Imagen</option>
+                            <option value="url">Link</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="col-md-12 control-label" for="textinput" id="emailPeticion">Coloca tu e-mail</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                
+            </form>
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="cerrarForm()">Close</button>
+                    <button type="submit" class="btn btn-success" id="myBtn" onclick="cerrarForm()">Aceptar</button>
+                </div>
+          </div>
         </div>
     </div>
     
