@@ -50,10 +50,10 @@ var constructor =[
 
 // cambiar a pagina C1 y C2
 function EntrarEn_C1(){
-    location.replace("pag_C1.html")
+    location.replace("paginaC1.html")
 }
 function EntrarEn_C2(){
-    location.replace("pag_C2.html")
+    location.replace("paginaC2.html")
 }
 
 // cambiar a pagina principal

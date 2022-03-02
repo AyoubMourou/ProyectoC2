@@ -8,6 +8,7 @@ header{
 footer{
     background-color: white;
     height: fit-content;
+    max-height: 100px;
 }
 #cabecera
 {
@@ -166,7 +167,7 @@ footer{
 }
 
 .cuadradoC:hover {
-    color: orange;
+    color: blueviolet;
   }
 
 #footerIMG{
