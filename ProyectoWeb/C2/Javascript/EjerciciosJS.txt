@@ -1,0 +1,12 @@
+A - Completar el formulario boostrap:
+- Añadir un campo DNI
+- cuando se pulsar 'Enviar', comprobar que el campo DNI contiene un DNI válido (algoritmo en:
+http://www.interior.gob.es/web/servicios-al-ciudadano/dni/calculo-del-digito-de-control-del-nif-nie)
+
+B - Hacer una página 'Juego del ahorcado':
+- Se usan palabras de 8 letras (la/las palabras por encontrar se meten dentro del propio código)
+- Se escriben las letras 'candidatas' en una casilla de texto, y si coincide (clic en un botón para verificarla), se muestra la letra en la(s) casilla(s) correspondiente(s), de las 8 que representan la palabra.
+- Al fallar 7 veces se acaba el juego, y se deja la posibilidad de volver a empezar.
+- Si os atrevís, mostrar una imagen que represente lo 'colgado' que queda el jugador.
+
+

@@ -7,7 +7,7 @@ header{
 }
 footer{
     background-color: white;
-    
+    height: fit-content;
 }
 #cabecera
 {
@@ -48,7 +48,6 @@ footer{
     width: 100%;
     
 }
-
 .cuadradoC{
     width:50vh;
     max-width:400px;
@@ -60,7 +59,6 @@ footer{
     background-position: center;
     background-size: cover; 
 }
-
 .C{
     font-size: 500%;
     color: white;
@@ -112,15 +110,93 @@ footer{
 }
 
 .descargable{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width:50vh;
     max-width:150px;
     height:50vh;
     max-height:150px;
     position: relative;
     margin: 5vh;
+    border-radius: 25%;
+}
+.descargable:hover .icon{
+    max-width:85px;
+    max-height:85px;
+}
+.icon{
+    width:50vh;
+    max-width:75px;
+    height:50vh;
+    max-height:75px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
+.docuText{
+    background-color: black;
+    border-radius: 5%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 1%;
+    color: white;
+    width: 125px;
+}
+.docuText:hover{
+    width: fit-content;
+    overflow: auto;
+    
+}
+
+.pdfFile{
+    background-image: url("imagenes/pdfIcon.png");
+}
+.txtFile{
+    background-image: url("imagenes/txtIcon.png");
+}
+.urlFile{
+    background-image: url("imagenes/urlIcon.png");
+}
+.jsFile{
+    background-image: url("imagenes/jsIcon.png");
+}
+.htmlFile{
+    background-image: url("imagenes/htmlIcon.png");
+}
+
+.cuadradoC:hover {
+    color: orange;
+  }
+
+#footerIMG{
+    max-height: 90px;
+}
+#bloqueUsuario{
+    padding: 28%;
+    height: fit-content;
+    
+}
+#redondaInicial{
+    height: 30vh;
+    max-height: 45px;
+    max-width: 45px;
+    width: 30vh;
+    border-radius: 100%;
+    background-color: blueviolet;
+    position: relative;
+}
+#letraInicial{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#name{
+    padding-top:40%;
+    font-weight: bolder;
+    font-size: 100%;
+    width: fit-content;
+    white-space: nowrap;
+}
+
 

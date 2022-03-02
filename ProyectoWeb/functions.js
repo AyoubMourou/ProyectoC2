@@ -37,21 +37,23 @@ function getCookie(cname) {
     return "";
 }
 
-function RatonEncima(c){
+var constructor =[
+    "C1. Introducción a la programación i al diseño de Software-Fundamentos de computadoras, So y redes+C1/ArquitecturaDeLosOrdenadores.pdf-Logica y fundamentos de programación. Algoritmos+C1/AlgoritmosYdiagramasDeFlujo.pdf+C1/SOLUCIONCamelCaseCS.cs+C1/EjercicioEnC#.txt+C1/SOLUCIONMediaCSharp.txt+C1/SOLUCIONMediaJava.txt-GIT. Conceptos y usos.+C1/manualGit.pdf+C1/IntroduccionGIT.pdf+C1/RealidadDeUnProyecto.pdf"
+    ,"C2. Introducción al desarrollo WEB"+
+    "-Conceptos generales del mundo web+C2/LIBRODesarrollodeaplicacionesweb.pdf+C2/DesarrolloWEBHTML.pdf"+
+    "-Lenguaje de Marcas HTML+C2/LenguajeHTML.pdf+C2/Ejercicios/CV_HTML.jpg+C2/Ejercicios/Dracula.PNG"+
+    "-CSS(Bootstrap)+C2/Bootstrap/DocBootstrap4.pdf+C2/Bootstrap/EjercicioFormBootstrap.png+C2/Bootstrap/MiprimerapaginaBootstrap.html+C2/Bootstrap/PPTBootstrap.pdf+C2/Bootstrap/SolucionFormbootstrap.zip+C2/Bootstrap/Tutorialbootstrap4.pdf"+
+    "-JavaScript y jQuery+C2/Javascript/1EjerciciosdeJavaScript.pdf+C2/Javascript/DOCJavascript.pdf+C2/Javascript/EjerciciosJS.txt+C2/Javascript/Javascript.pdf+C2/Javascript/PracticaJS.html+C2/jQuery/formJQueryEJERCICIO.js+C2/jQuery/formJQuerySOLUCION.js+C2/jQuery/formJQuery.html+C2/jQuery/IniciacionJQuery.pdf+C2/jQuery/jQueryGetStarted.url"+
+    "-Mini_proyecto 1, página web estatica+C2/Proyecto/ComoutilizarcookiesenJavaScriptCybMeta.url+C2/Proyecto/Crearunawebparaalmacenarlosapuntes.pdf+C2/Proyecto/HostingSSDNVMeconelmejorsoporte247LucusHost.url+C2/Proyecto/JavaScriptCookies.url+C2/Proyecto/pruebacookies.html"
     
-    c.style.maxWidth= 425+"px";
-    c.style.maxHeight=425+"px";
-    
-}
+]
 
-function RatonFuera(c){
-    c.style.maxWidth=400+"px";
-    c.style.maxHeight=400+"px";
+// cambiar a pagina C1 y C2
+function EntrarEn_C1(){
+    location.replace("pag_C1.html")
 }
-
-// cambiar a pagina C1
-function EntrarEn_C() {
-    location.replace("pag_C.html")
+function EntrarEn_C2(){
+    location.replace("pag_C2.html")
 }
 
 // cambiar a pagina principal
@@ -59,10 +61,6 @@ function VolverPagPrincipal(){
     location.replace("pag_principal.html")
 }
 
-
-window.onload=function(){
-    $('.contenidoSesion').hide()
-}
 
 // mostrar y ocultar nombres de los temas
 function HideShowSesion(value){

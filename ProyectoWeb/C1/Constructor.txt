@@ -1,0 +1,10 @@
+C1. Introducción a la programación i al diseño de Software
+-Fundamentos de computadoras, So y redes+C1/ArquitecturaDeLosOrdenadores.pdf
+-Logica y fundamentos de programación. Algoritmos+C1/AlgoritmosYdiagramasDeFlujo.pdf+C1/SOLUCIONCamelCaseCS.cs+C1/EjercicioEnC#.txt+C1/SOLUCIONMediaCSharp.txt+C1/SOLUCIONMediaJava.txt
+-GIT. Conceptos y usos.+C1/manualGit+C1/IntroduccionGIT+C1/RealidadDeUnProyecto
+C2. Introducción al desarrollo WEB
+-Conceptos generales del mundo web+C2/LIBRODesarrollodeaplicacionesweb.pdf+C2/DesarrolloWEB-HTML.pdf
+-Lenguaje de Marcas HTML+C2/LenguajeHTML.pdf+C2/Ejercicios/CV_HTML.jpg+C2/Ejercicios/Dracula.PNG+C2/Ejercicios/Dracula.txt
+-CSS(Bootstrap)+C2/Bootstrap/DocBootstrap4.pdf+C2/Bootstrap/EjercicioFormBootstrap.png+C2/Bootstrap/MiprimerapaginaBootstrap.html+C2/Bootstrap/PPTBootstrap.pdf+C2/Bootstrap/SolucionFormbootstrap.zip+C2/Bootstrap/Tutorialbootstrap4.pdf+C2/Ejercicios/EjercicioasignarCSS-corregido.html+C2/Ejercicios/EjercicioasignarCSS.html
+-JavaScript y jQuery+C2/Javascript/1EjerciciosdeJavaScript.pdf+C2/Javascript/DOCJavascript.pdf+C2/Javascript/EjerciciosJS.txt+C2/Javascript/Javascript.pdf+C2/Javascript/PracticaJS.html+C2/jQuery/formJQueryEJERCICIO.js+C2/jQuery/formJQuerySOLUCION.js+C2/jQuery/formJQuery.html+C2/jQuery/IniciacionJQuery.pdf+C2/jQuery/jQueryGetStarted.url
+-Mini-proyecto 1, página web estatica+C2/Proyecto/ComoutilizarcookiesenJavaScriptCybMeta.url+C2/Proyecto/Crearunawebparaalmacenarlosapuntes.pdf+C2/Proyecto/HostingSSDNVMeconelmejorsoporte247LucusHost.url+C2/Proyecto/JavaScriptCookies.url+C2/Proyecto/pruebacookies.html
